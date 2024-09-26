@@ -1164,6 +1164,8 @@ header {
 /* start of section 9 */
 
 .section-9 {
+  padding-block: 6rem;
+
   .split {
     display: flex;
   }
@@ -1190,16 +1192,21 @@ header {
 }
 
 .card-slides-container {
+  display: flex;
+  gap: 1rem;
   padding-block: 2rem;
+  overflow: scroll;
 }
 
 .card-slides {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 420px;
+  min-width: 436px;
   border: 1px solid var(--clr-secondary-200);
-  padding: 2rem;
+  padding-block: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
   border-radius: var(--corner-radius-extra-large);
 
   h3 {
@@ -1232,8 +1239,22 @@ header {
   }
 }
 
+.section-header {
+  display: flex;
+  
+  
+  button {
+    align-self: baseline;
+  }
+}
+
 /* end of section 9 */
 
+/* start of footer */
+footer {
+  background-color: var(--clr-secondary-900);
+}
+/* end of footer */
 
 
 
