@@ -1012,7 +1012,9 @@ header {
     font-size: clamp(16px, 2vw, 20px);
   }
 }
+/* end of section 7 */
 
+/* start of section 8 */
 .section-8 {
   display: flex;
   justify-content: space-between;
@@ -1027,8 +1029,6 @@ header {
   padding: 1rem;
 
   h2 {
-    /* padding-bottom: 1.5rem; */
-    /* text-align: center; */
     font-family: var(--ff-header);
     font-weight: var(--fw-600);
     font-size: clamp(24px, 5vw + 1rem, var(--fs-48));
@@ -1158,6 +1158,81 @@ header {
     width: 100%;
   }
 }
+
+/* end of section 8 */
+
+/* start of section 9 */
+
+.section-9 {
+  .split {
+    display: flex;
+  }
+
+  h2 {
+    width: 36ch;
+    font-family: var(--ff-header);
+    font-weight: var(--fw-600);
+    font-size: clamp(24px, 5vw + 1rem, var(--fs-48));
+  }
+
+  span {
+    font-weight: var(--fw-300);
+    font-family: var(--ff-header);
+    font-size: clamp(24px, 5vw + 1rem, var(--fs-48));
+  }
+}
+
+.sliders {
+  display: flex;
+  cursor: pointer;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.card-slides-container {
+  padding-block: 2rem;
+}
+
+.card-slides {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 420px;
+  border: 1px solid var(--clr-secondary-200);
+  padding: 2rem;
+  border-radius: var(--corner-radius-extra-large);
+
+  h3 {
+    color: #232323;
+    font-weight: var(--fw-400);
+    font-family: var(--ff-header);
+    font-size: clamp(16px, 5vw, var(--fs-18));
+  }
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.user-details {
+  h3 {
+    color: #232323;
+    font-weight: var(--fw-500);
+    font-family: var(--ff-secondary);
+    font-size: clamp(16px, 5vw, var(--fs-18));
+  }
+
+  p {
+    color: #7D7D7D;
+    font-weight: var(--fw-400);
+    font-family: var(--ff-secondary);
+    font-size: clamp(12px, 5vw, var(--fs-14));
+  }
+}
+
+/* end of section 9 */
 
 
 
